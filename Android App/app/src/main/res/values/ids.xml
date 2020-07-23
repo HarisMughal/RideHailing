@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mapDriver" type="id">mapDriver</item>
+    <item name="mapDriverRelative" type="id">mapDriverRelative</item>
+    <item name="profile" type="id">profile</item>
+    <item name="logoutItem" type="id">logoutItem</item>
+</resources>

@@ -1,0 +1,49 @@
+Instructions for Android App:
+
+Software Required: 
+1)	Xampp
+2)	Android Studio
+3)	Web Browser
+4)	Wifi and wifi enabeled devices
+
+Place the Android and pproject folder in Xampp\htdocs and open xampp control panel
+Start Apache and MySQL
+
+Open CMD/Terminal type ipconfig/ifconfig and note your ipaddress, now note your WiFi IP address.
+
+Open php my admin and create database with name vms
+
+than in vms DB import file vms.sql
+
+
+When you will run app the first Activity will be of SetUp enter the ip you noted above and press setup button
+
+In App:
+The first screen is of registering user you have to provide the user name, email, and password of length 8.
+Once registered the data will be visible on database and you will be proceeding to Login Screen.
+On Login you will get redirected to Maps showing your location (GPS must be turned on) in case of emulator change the values of latitude and longitude by clicking … icon. 
+Once you click book ride your ID along with your location coordinates will be sent to database and on cancel ride, they will be deleted.
+As you logged in your data is saved on your phone so you have to login only once, next time you open app Maps will be opened.
+
+
+
+
+
+Instructions for Admin Website:
+Link to download Admin website
+https://drive.google.com/drive/folders/1gkfXGqrSl8fojIMkxAkMhpxETzmqad4q?usp=sharing
+Kindly download this first and place it in Xampp\htdocs
+
+Note you have to add driver first using admin page inorder to login as driver(you cannot insert driver unless you insert cars) in application
+Login username and password is moiz
+Open browser goto localhost/vms/public
+
+1) Admin panel of vms first drived you to home page.
+
+2) from where admin can select all the option appears in side bar and perform 
+operation like update , delete, read , create (until now all these operation
+are performs only on User Management while  create and read operation are 
+done on all tables).
+
+3) admin can also search the entry by name in table and sort the table by name. 
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameProfile"
+        android:hint="name"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:id="@+id/emailProfile"
+        android:hint="Email"
+        android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/maleProfile"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/femaleProfile"
+            android:checked="false" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityProfile"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/cnicProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CNIC"
+        android:inputType="number"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/numberProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/packageProfile"
+        android:hint="Package Code"
+        android:inputType="number"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/colorButton"
+        />
+
+
+</LinearLayout>
